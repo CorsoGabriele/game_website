@@ -1,0 +1,116 @@
+body {
+    background-image: url("eagle.jpg");
+	background-size: cover;
+	background-position: center;
+	 background-attachment: fixed;
+	margin: 0;
+	height: 100%;
+}
+
+.grid{
+	margin: auto; 
+	width: 30%;
+	height: 50%;
+	padding: 3%;
+}
+
+.block{
+	background-color: white;
+	border: 3px solid;
+	width: 5%;
+	height: 5%;
+	cursor: pointer;
+}
+
+.blockv{
+	background-color: white;
+	border: 3px solid;
+	width: 5%;
+	height: 5%;
+}
+
+.blocku{
+	background-color: green;
+	border: 3px solid;
+	width: 5%;
+	height: 5%;
+}
+
+.blocko{
+	background-color: black;
+	border: 3px solid;
+	width: 5%;
+	height: 5%;
+}
+
+.blockp{
+	background-color: grey;
+	border: 3px solid;
+	width: 5%;
+	height: 5%;
+	cursor:pointer;
+}
+
+#choice{
+	margin: auto;
+	width: 50%;
+	height: 10%;
+}
+
+html{
+	margin: 0;
+	height: 100%;
+}
+
+#data{
+	margin: auto;
+    width: 30%;
+	background-color: #212529;
+}
+
+#signb{
+	margin: 20px;
+}
+
+#loginb{
+	margin: 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none !important;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
